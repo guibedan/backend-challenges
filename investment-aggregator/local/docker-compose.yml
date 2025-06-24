@@ -1,0 +1,11 @@
+services:
+  mysql:
+    container_name: mysql-db
+    image: mysql:latest
+    environment:
+      - MYSQL_DATABASE=investment-aggregator-db
+      - MYSQL_ROOT_PASSWORD=1234
+      - MYSQL_USER=userdb
+      - MYSQL_PASSWORD=123
+    ports:
+      - "3306:3306"
