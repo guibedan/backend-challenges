@@ -1,0 +1,2 @@
+# Docker Compose run command
+docker compose -p ... up -d
